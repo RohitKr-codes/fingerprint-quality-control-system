@@ -1,0 +1,7 @@
+# Core dependencies for the Fingerprint Quality Control System
+opencv-python>=4.9,<5.0
+numpy>=1.26,<3.0
+streamlit>=1.30
+pandas>=2.0
+pillow>=10.0
+matplotlib>=3.8

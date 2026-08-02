@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- Project outputs (generated, not source) ---
+outputs/logs/*.log
+outputs/test_results.csv
+outputs/screenshots/*
+outputs/reports/*
+!outputs/screenshots/.gitkeep
+!outputs/reports/.gitkeep
+
+# Keep synthetic/sample dataset out of git if it gets large;
+# comment this out if you want to commit your real 20 test images.
+# dataset/*/*.jpg
