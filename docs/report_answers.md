@@ -1,4 +1,4 @@
-# Assignment 4 — Report Questions
+# Report Questions
 
 ## Q1. What threshold did you set for blur? How did you decide?
 
