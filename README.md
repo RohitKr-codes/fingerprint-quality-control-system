@@ -85,7 +85,7 @@ Fingerprint-Quality-Control-System/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Set up the environment
 
@@ -131,7 +131,7 @@ Then open the local URL Streamlit prints (usually `http://localhost:8501`).
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. `app/metrics.py` — each metric is a small, pure function:
    `check_blur`, `check_brightness`, `check_glare`,
@@ -163,9 +163,9 @@ Then open the local URL Streamlit prints (usually `http://localhost:8501`).
 
 ---
 
-## 🧪 Testing Methodology
+##  Testing Methodology
 
-Collect 20 real captures with your phone (10 minutes):
+Collect 20 real captures with our phone (10 minutes):
 
 - 5× **good** — clear, well-lit, steady, finger centered
 - 5× **blurry** — move your hand slightly during capture
@@ -192,7 +192,7 @@ for workers with worn ridges). Convert to PDF for submission if required.
 
 ---
 
-## 🔒 Notes on Safety & Cost
+## Notes on Safety & Cost
 
 - No external dataset download, no cloud API calls, no paid services.
 - No Tailwind/CDN dependency — the UI is hand-written CSS + vanilla JS only.
@@ -204,5 +204,8 @@ for workers with worn ridges). Convert to PDF for submission if required.
 
 ## 📜 License
 
-MIT — see [LICENSE](LICENSE). Built as a personal/portfolio project; free to
+* MIT — see [LICENSE](LICENSE). Built as a personal/portfolio project; free to
 reuse and extend.
+---
+## Author
+* Rohit Kumar Rai
